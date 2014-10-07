@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>D4-MotionQuery</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>	[_motionActivityMgr queryActivityStartingFromDate:startDate
+											toDate:endDate
+											toQueue:[NSOperationQueue mainQueue]
+										withHandler:^(NSArray *activities, NSError *error) {
+		if (error) {
+			[self _handleError:error];
+		} else {
+			[self _additionalProcessingOn:activities];
+			&lt;# More Logic #&gt;
+		}
+	}];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>7E2150C6-15A6-4935-A2F5-6030FBA1EA6D</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>D4-MotionQuery</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
