@@ -2,9 +2,7 @@
 //  LocationHandler.m
 //  MotionActivityDemo
 //
-//  Created by me on 9/27/14.
-//  Copyright (c) 2014 me. All rights reserved.
-//
+
 
 #import "LocationHandler.h"
 static LocationHandler *DefaultManager = nil;

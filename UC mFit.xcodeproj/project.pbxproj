@@ -37,14 +37,14 @@
 		C245D25419D7B93600A37BDA /* INTULocationRequestDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INTULocationRequestDefines.h; sourceTree = "<group>"; };
 		E91DBD86192C6A4F00FA8FD0 /* AAPLActivityDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAPLActivityDataManager.h; sourceTree = "<group>"; };
 		E91DBD87192C6C6300FA8FD0 /* AAPLActivityDataManager.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; path = AAPLActivityDataManager.m; sourceTree = "<group>"; };
-		E948E6FF19289F420098FC44 /* MotionActivityDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MotionActivityDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E948E6FF19289F420098FC44 /* UC mFit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UC mFit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E948E70219289F420098FC44 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E948E70419289F420098FC44 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		E948E70619289F420098FC44 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		E948E70A19289F420098FC44 /* MotionActivityDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MotionActivityDemo-Info.plist"; sourceTree = "<group>"; };
+		E948E70A19289F420098FC44 /* UC mFit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UC mFit-Info.plist"; sourceTree = "<group>"; };
 		E948E70C19289F420098FC44 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E948E70E19289F420098FC44 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		E948E71019289F420098FC44 /* MotionActivityDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MotionActivityDemo-Prefix.pch"; sourceTree = "<group>"; };
+		E948E71019289F420098FC44 /* UC mFit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UC mFit-Prefix.pch"; sourceTree = "<group>"; };
 		E948E71119289F420098FC44 /* AAPLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AAPLAppDelegate.h; sourceTree = "<group>"; };
 		E948E71219289F420098FC44 /* AAPLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AAPLAppDelegate.m; sourceTree = "<group>"; };
 		E948E71519289F420098FC44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -98,7 +98,7 @@
 		E948E70019289F420098FC44 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E948E6FF19289F420098FC44 /* MotionActivityDemo.app */,
+				E948E6FF19289F420098FC44 /* UC mFit.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -141,10 +141,10 @@
 		E948E70919289F420098FC44 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				E948E70A19289F420098FC44 /* MotionActivityDemo-Info.plist */,
+				E948E70A19289F420098FC44 /* UC mFit-Info.plist */,
 				E948E70B19289F420098FC44 /* InfoPlist.strings */,
 				E948E70E19289F420098FC44 /* main.m */,
-				E948E71019289F420098FC44 /* MotionActivityDemo-Prefix.pch */,
+				E948E71019289F420098FC44 /* UC mFit-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -152,9 +152,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E948E6FE19289F420098FC44 /* MotionActivityDemo */ = {
+		E948E6FE19289F420098FC44 /* UC mFit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E948E73419289F420098FC44 /* Build configuration list for PBXNativeTarget "MotionActivityDemo" */;
+			buildConfigurationList = E948E73419289F420098FC44 /* Build configuration list for PBXNativeTarget "UC mFit" */;
 			buildPhases = (
 				E948E6FB19289F420098FC44 /* Sources */,
 				E948E6FC19289F420098FC44 /* Frameworks */,
@@ -164,9 +164,9 @@
 			);
 			dependencies = (
 			);
-			name = MotionActivityDemo;
+			name = "UC mFit";
 			productName = MotionActivityDemo;
-			productReference = E948E6FF19289F420098FC44 /* MotionActivityDemo.app */;
+			productReference = E948E6FF19289F420098FC44 /* UC mFit.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -188,7 +188,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E948E6FA19289F420098FC44 /* Build configuration list for PBXProject "MotionActivityDemo" */;
+			buildConfigurationList = E948E6FA19289F420098FC44 /* Build configuration list for PBXProject "UC mFit" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -201,7 +201,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E948E6FE19289F420098FC44 /* MotionActivityDemo */,
+				E948E6FE19289F420098FC44 /* UC mFit */,
 			);
 		};
 /* End PBXProject section */
@@ -333,9 +333,9 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "MotionActivityDemo/MotionActivityDemo-Prefix.pch";
-				INFOPLIST_FILE = "MotionActivityDemo/MotionActivityDemo-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "MotionActivityDemo/UC mFit-Prefix.pch";
+				INFOPLIST_FILE = "MotionActivityDemo/UC mFit-Info.plist";
+				PRODUCT_NAME = "UC mFit";
 				SDKROOT = iphoneos;
 				WRAPPER_EXTENSION = app;
 			};
@@ -348,9 +348,9 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "MotionActivityDemo/MotionActivityDemo-Prefix.pch";
-				INFOPLIST_FILE = "MotionActivityDemo/MotionActivityDemo-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "MotionActivityDemo/UC mFit-Prefix.pch";
+				INFOPLIST_FILE = "MotionActivityDemo/UC mFit-Info.plist";
+				PRODUCT_NAME = "UC mFit";
 				SDKROOT = iphoneos;
 				WRAPPER_EXTENSION = app;
 			};
@@ -359,7 +359,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E948E6FA19289F420098FC44 /* Build configuration list for PBXProject "MotionActivityDemo" */ = {
+		E948E6FA19289F420098FC44 /* Build configuration list for PBXProject "UC mFit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E948E73219289F420098FC44 /* Debug */,
@@ -368,7 +368,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E948E73419289F420098FC44 /* Build configuration list for PBXNativeTarget "MotionActivityDemo" */ = {
+		E948E73419289F420098FC44 /* Build configuration list for PBXNativeTarget "UC mFit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E948E73519289F420098FC44 /* Debug */,

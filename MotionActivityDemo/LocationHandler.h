@@ -1,10 +1,10 @@
-//
-//  LocationHandler.h
-//  MotionActivityDemo
-//
-//  Created by me on 9/27/14.
-//  Copyright (c) 2014 me. All rights reserved.
-//
+/*
+ 
+ This file has been abandoned in favor of the location services from Intuit
+  LocationHandler.h
+  MotionActivityDemo
+*/
+
 
 #import <Foundation/Foundation.h>
 #import <CoreLocation/CoreLocation.h>

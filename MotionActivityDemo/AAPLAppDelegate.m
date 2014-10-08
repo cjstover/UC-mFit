@@ -1,7 +1,10 @@
 /*
 Abstract:
 
-     Default app delegate implementation.
+    Default app delegate implementation.
+    This file is responsible for motion and location data capture.
+    Timer is set to 10 minutes to ensure that the app is not shut down in the background.
+    Documentation
 */
 
 #import "AAPLAppDelegate.h"
@@ -19,6 +22,7 @@ double updateInterval = 0.2;
 
 unsigned long int accelCount;
 unsigned long int rotationCount;
+float GPSInterval = 600.0;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
