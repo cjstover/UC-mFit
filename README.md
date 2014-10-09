@@ -25,4 +25,4 @@ IOS 7 SDK
 
 ### Runtime
 
-IOS 7 SDK or later
+IOS 7.1 SDK or later
