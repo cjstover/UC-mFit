@@ -12,13 +12,10 @@ The project consists of two main views and a 3 classes describing a ranged query
 
 ## What's Important
 
-The AAPLActivityDataManager controls all requests to the motion activity and step counting APIs and this is where you should start first.  In this class we will go over:
-1. Checking for API availability
-2. Checking for Motion Activity authorization.
-3. Querying for historical activity (this is how your app gains access to data that was accumulated when your app is not in the foreground)
-4. Requesting live updates.
 
-In addition, we present some simple filtering mechanisms that we encourage you to play around with.
+
+
+
 
 ## Requirements
 
