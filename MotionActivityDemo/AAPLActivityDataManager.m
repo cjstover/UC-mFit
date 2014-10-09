@@ -35,14 +35,9 @@ Abstract:
 	CMMotionActivityManager *_motionActivityMgr;
 }
 
-// This is the code that we are going over during coding exercise.  It's been separated from the rest
-// of the class for greater clarity during the exercise.
-#define DEMO 0
-#if DEMO
-	#include "SampleCodeWorkspace.inc"
-#else
-	#include "SampleCodeWorkspaceFinished.inc"
-#endif
+
+#include "SampleCodeWorkspaceFinished.inc"
+
 
 - (instancetype)init
 {
